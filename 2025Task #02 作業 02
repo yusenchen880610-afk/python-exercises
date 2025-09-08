@@ -1,0 +1,7 @@
+x = float(input("請輸入x的數值:"))
+y = float(input("請輸入y的數值:"))
+
+import math
+sum = math.floor(x)+math.ceil(y)
+
+print(sum)
